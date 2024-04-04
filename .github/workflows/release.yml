@@ -41,6 +41,7 @@ name: Publish Code
 on:
   release:
     types: [published]
+  workflow_dispatch:
     
 
 jobs:
