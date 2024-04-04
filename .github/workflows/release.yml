@@ -64,7 +64,7 @@ jobs:
       run: dotnet build --no-restore
     - name: GetTag
       id: tag
-      uses: dawidd6/action-get-tag@v1.1.0
+      uses: devops-actions/action-get-tag@v1.0.2
       with:
         strip_v: true
     - name: Package
