@@ -12,6 +12,6 @@
  <PropertyGroup>
     <PackageLicenseUrl>https://raw.githubusercontent.com/jcardoso13/ContentFactory/master/LICENSE</PackageLicenseUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageId>CloudLiquid/ContentFactory</PackageId>
+    <PackageId>CloudLiquid.ContentFactory</PackageId>
  </PropertyGroup>
 </Project>
