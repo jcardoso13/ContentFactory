@@ -5,9 +5,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-		<PackageReference Include="DotLiquid" Version="2.2.656"/>
+    <PackageReference Include="DotLiquid" Version="2.2.656"/>
     <PackageReference Include="Scriban" Version="5.4.6"/>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
   </ItemGroup>
-
+ <PropertyGroup>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/jcardoso13/ContentFactory/master/LICENSE</PackageLicenseUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageId>CloudLiquid/ContentFactory</PackageId>
+ </PropertyGroup>
 </Project>
