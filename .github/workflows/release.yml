@@ -71,7 +71,16 @@ jobs:
     - name: Package
       run: dotnet pack --configuration Release -p:PackageVersion=${{steps.tag.outputs.tag}}
     - name: Publish the package to GPR
-      run: dotnet nuget push ./${{github.event.repository.name}}/bin/Release/*.nupkg
+     # run: dotnet nuget push ./${{github.event.repository.name}}/bin/Release/*.nupkg
+      uses: brandedoutcast/publish-nuget@v2.5.5
+      with:
+        # Filepath of the project to be packaged, relative to root of repository
+        PROJECT_FILE_PATH: ./${{github.event.repository.name}}
+        # NuGet package id, used for version detection & defaults to project name
+        PACKAGE_NAME: CloudLiquid/${{github.event.repository.name}}
+        NUGET_KEY: ${{ secrets.NUGET_API_KET }}
+    
+
     
       
       
