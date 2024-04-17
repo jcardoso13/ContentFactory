@@ -12,7 +12,7 @@ using System.Dynamic;
 using Scriban.Runtime;
 using System.IO;
 
-namespace TransformData.ContentFactory
+namespace CloudLiquid.ContentFactory
 {
     public class JsonContentReader : IContentReader
     {

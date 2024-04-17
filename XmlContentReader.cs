@@ -8,7 +8,7 @@ using System.Xml.Linq;
 using DotLiquid;
 using Newtonsoft.Json;
 
-namespace TransformData.ContentFactory
+namespace CloudLiquid.ContentFactory
 {
     public class XmlContentReader : IContentReader
     {

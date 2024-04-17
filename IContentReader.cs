@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TransformData.ContentFactory
+namespace CloudLiquid.ContentFactory
 {
     public interface IContentReader
     {

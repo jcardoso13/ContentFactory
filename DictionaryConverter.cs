@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace TransformData.ContentFactory
+namespace CloudLiquid.ContentFactory
 {
     public class DictionaryConverter : JsonConverter
     {

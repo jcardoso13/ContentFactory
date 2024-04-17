@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TransformData.ContentFactory
+namespace CloudLiquid.ContentFactory
 {
     public static class ContentFactory
     {
